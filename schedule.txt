@@ -1,0 +1,2 @@
+* * * * * /app/run.sh >> /app/schedule.log 2>&1
+# An empty line is required at the end of the file for a valid cron file
