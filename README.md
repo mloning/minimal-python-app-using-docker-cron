@@ -20,7 +20,7 @@ To launch the app, first build the image, then run the container:
 1. `docker build --rm -t python-app .`
 2. `docker run -t -i --rm --name python-app -v <output-directory>:/output python-app`
 
-The `<output-directory>` is a directory on the host machine. It is used for writing out logs from the application.
+The `<output-directory>` is a directory on the host machine. Use the full, absolute path to specify it. It is used for writing out logs from the application.
 
 The configuration in `schedule.txt` will run the Python script every minute.
 
