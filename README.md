@@ -22,7 +22,7 @@ To launch the app, first build the image, then run the container:
 
 The `<output-directory>` is a directory on the host machine. Use the full, absolute path to specify it. It is used for writing out logs from the application.
 
-The configuration in `schedule.txt` will run the Python script every minute.
+The configuration in `schedule.txt` will run the Python script every minute. Logs will saved to the `<output-directory>` on the host machine and in the `/output/` directory inside the container. 
 
 To inspect the running container, you can: 
 
