@@ -1,3 +1,5 @@
 #!/bin/bash
 timestamp=`date +%Y/%m/%d-%H:%M:%S`
-echo "WORKDIR is $WORKDIR at $timestamp"
+echo "Running Python job at $timestamp"
+
+python -u /app/app.py
